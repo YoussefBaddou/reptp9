@@ -3,6 +3,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <scm>     <connection>scm:git:file://C:\Users\youss\Desktop\UIR\UIR ING 8\Software Requirements\projetmaven\tp9</connection> </scm>
 
   <groupId>ma.ac.uir</groupId>
   <artifactId>tp9</artifactId>
@@ -82,11 +83,19 @@
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>2.11</version>
       </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
         <version>2.6</version>
       </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-changelog-plugin</artifactId>
+        <version>2.2</version>
+      </plugin>
+
     </plugins>
   </reporting>
 
